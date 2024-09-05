@@ -1,0 +1,43 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    ". header header header ."
+    ". . . . ."
+    ". main main aside .";
+
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr; 
+    padding-top: 20px;
+  }
+
+header {
+    grid-area: header;
+    background-color: #0077b6;
+    text-align: center;
+    border: 4px solid #333;
+  }
+  
+main {
+    grid-area: main;
+    background-color: #90e0ef;
+    border: 4px solid #333;
+    border-top: none;
+  }
+  
+aside {
+  grid-area: aside;
+  background-color: #90e0ef;
+  border: 4px solid #333;
+  border-top: none;
+  border-left: none;
+  }
+
+
+h1 {
+    font-family: 'Georgia', serif; 
+    font-weight: normal; 
+    color: #222; 
+    margin: 20px 0; 
+    padding: 10px 0;
+    line-height: 1.2;
+  }
+  

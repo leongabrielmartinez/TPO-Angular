@@ -1,0 +1,11 @@
+h2{
+    margin: 70px;
+    margin-bottom: 25px;
+}
+a{
+    margin-left: 70px;
+    background-color: rgb(218, 229, 238);
+    border: 3px slategray solid;
+    border-radius: 7px;
+    padding: 5px;
+}
